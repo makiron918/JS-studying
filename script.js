@@ -35,3 +35,10 @@ alert(firstName + ' is a ' + age + ' years old ' + job + '. Is he married? ' + i
 
 var lastName = prompt('What is his last Name?');
 console.log(firstName + ' ' + lastName);
+
+/* Basic operators */
+
+var year = 2018;
+var yearJohn = year - 28;
+var yearMark = year - 33;
+console.log(yearJohn);
