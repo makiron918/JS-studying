@@ -121,3 +121,32 @@ if (age < 13){
 } else {
   console.log(firstName + ' is a man.');
 }
+
+
+var firstName = 'John';
+var age = 16;
+
+age >= 18 ? console.log(firstName + ' drinks beer.')
+: console.log(firstName + ' drinks juice.');
+
+var drink = age >= 18 ? 'beer' : 'juice';
+console.log(drink);
+
+if (age >= 18) {
+  var drink = 'beer';
+} else {
+  var drink = 'juice';
+}
+
+var job = 'teacher';
+switch (job) {
+  case 'teacher':
+    console.log(firstName + ' teaches kids how to code.');
+  case 'driver':
+    console.log(firstName + ' drives an uber in Lisbon.');
+  case 'designer':
+    console.log(firstName + ' designs beautiful websites.');
+    break;
+  default:
+    console.log(firstName + ' does something else.');
+}
