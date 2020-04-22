@@ -185,7 +185,7 @@ var whatDoYouDo = function(job, firstName) {
     case 'driver':
       return firstName + ' drives a cab in Lisbon';
     case 'designer':
-      return firstName + ' designes beautiful websites';
+      return firstName + ' designs beautiful websites';
     default:
       return firstName + ' does something else';
   }
@@ -194,3 +194,7 @@ var whatDoYouDo = function(job, firstName) {
 console.log(whatDoYouDo('teacher', 'John'));
 console.log(whatDoYouDo('designer', 'Jane'));
 console.log(whatDoYouDo('retired', 'Mark'));
+
+
+var names = ['John', 'Mark', 'Jane'];
+var years = new Array(1990, 1969, 1948);
